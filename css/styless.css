@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+.logo{
+    width: 250px;
+    height: 30px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 10%;
+}
+nav li{
+    display: inline-block;
+    padding:0px 7px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav li a{
+    text-decoration: none;
+    color:grey;
+}
+.active{
+    color: #00b39b;
+   
+}
+nav li a:hover{
+color:#00b39b
+}
+.lead_logo{
+    text-align: center;
+    margin-left: 650px ;
+    display: block;
+}
+.title{
+    color:#00b39b;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    word-spacing: 5px;
+}
+.paragraph{
+    display: flex;
+    margin-top: 50px;
+    color: #747474;
+}
+.firstp{
+    margin-left: 200px;
+    line-height: 1.75;
+    font-weight: 400px;       
+}
+.secondp{
+    margin-right: 200px;
+    margin-left: 50px;
+    line-height: 1.75;
+    font-weight: 400;
+}
+.for-patients{
+    background-color: #00b39b;
+    border:2px #00b39b solid;
+    color: white;
+    border-radius: 10px;
+    margin-left: 200px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+.for-doctors{
+    background-color: #3d83df;
+    border:2px #3d83df solid;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+
+}
+.for-clinics{
+    background-color: rgb(13, 13, 26);
+    border:2px  rgb(13, 13, 26) solid;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 200px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+.hospital{
+    display: flex;
+}
+.selectp{
+    background-color:#00b39b;
+    color: white;
+    border:none;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.selectd{
+    background-color:#3d83df;
+    color: white;
+    border:none;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.selectc1{
+    background-color:rgb(13, 13, 26);
+    color: white;
+    border:none;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.selectc2{
+    background-color:rgb(13, 13, 26);
+    color: white;
+    border:none;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.stats {
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+}
+
+.col-2 {
+    width: 50%;
+}
+[class*=col-] {
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+}
+.section__inner {
+     zoom: 1; 
+     max-width: 1015px; 
+     padding: 0 20px; 
+     margin: 0 auto; 
+    position: relative; 
+}
+
+.grid {
+    margin: 0 -10px;
+}
+.stats__item {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+}
+.stats_grid .col-2:nth-of-type(2n) .stats_item {
+    transform: translateY(-30px);
+}
+.vert-align {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.vert-align>* {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    border: 0;
+}
+.stats__header {
+    margin-top: 2em;
+}
+.stats__header h1{
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.stats__header p {
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    margin: 1.6em 0; 
+}
+.stats__item h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: .5em 0;
+}
+.stats__item p {
+    margin: 0;
+}
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.brands h1 {
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    color: #00b39b;
+}
+.brands__logos a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.brands__logos a path {
+    transition: all .2s ease 0s;
+    fill: hsla(0,0%,67%,.7);
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.brands_logos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0;
+    width: 67%;
+    list-style: none;
+}
+.brands__logos li {
+font-size: 1rem;
+display: inline-block;
+width: 160px;
+padding: 5px 0;
+}
+.brands__logos .tuotempo {
+ width: 175px;
+}
+.brands__logos .gipo {
+    width: 85px;
+}
+
+.brands__logos .clinicloud {
+    width: 90px;
+}
+.brands_logos .clinicloud img, .brandslogos .gipo img, .brands_logos .tuotempo img {
+    transition: all .2s ease 0s;
+    filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity: .55;
+}
+footer p{
+    text-align: center;
+        font-size: 12px;
+        color: #ababab;
+}
+.footer-text a{
+    text-decoration: none;
+    color: #3d83df;
+}
+::selection{
+    background-color:#00b39b;
+    color:#fff;
+}
